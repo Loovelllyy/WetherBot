@@ -2,7 +2,7 @@ const axios = require('axios');
 const TelegramBot = require("node-telegram-bot-api");
 const TOKEN = '5402284319:AAHInmcapWgfKmcdyb5D9nbBDSEozVFVJHk';
 const bot = new TelegramBot(TOKEN, {polling: true});
-const key = '62c1b562edb67b5e72415c6e4d367803';
+const key = 'c887907459bd59459171e3c4f761aa30';
 const { createGenerator } = require('weather-picture-generator');
 
 let awaitCity = false;
